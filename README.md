@@ -56,7 +56,7 @@ What that script do is,
 2. add event listener for messages, if the message says reload, reloads the page.
 3. add event listener for web socket server to detect when the server disconnect when that happens it add a timeout of 1 second and try to reload the page.
 
-In summary, what the thing does is:
+In summary, what this does is:
 
 1. Create an ExpressJS server and a WebSocket using the "express", "http", and "ws" modules.
 2. Create a WebSocket.Server object to manage incoming WebSocket connections.
